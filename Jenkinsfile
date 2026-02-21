@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir('calculator-app') {
-                    bat 'mvn clean compile'
+                    sh 'mvn clean compile'
                 }
             }
         }
@@ -23,7 +23,7 @@ pipeline {
         stage('Test') {
             steps {
                 dir('calculator-app') {
-                    bat 'mvn test'
+                    sh 'mvn test'
                 }
             }
         }
