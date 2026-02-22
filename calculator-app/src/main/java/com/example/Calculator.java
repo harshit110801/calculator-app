@@ -1,5 +1,3 @@
-// Tested by Harshit Pandey
-
 package com.example;
 
 public class Calculator {
