@@ -8,6 +8,6 @@ public class TestCase {
     @Test
     void testHelloWorld() {
         Testing t = new Testing();
-        assertEquals("Hello World", t.helloWorld());
+        assertEquals("Hello World !!", t.helloWorld());
     }
 }
